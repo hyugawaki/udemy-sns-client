@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import apiClient from "@/lib/apiClient";
 import { useAuth } from "@/context/auth";
 
-export default function login() {
+export default function Login() {
   const [email, setEmail] = useState<String>("");
   const [password, setPassword] = useState<String>("");
 

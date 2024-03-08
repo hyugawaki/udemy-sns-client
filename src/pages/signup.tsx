@@ -3,7 +3,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 
-export default function signup() {
+export default function Signup() {
   const [username, setUserName] = useState<String>("");
   const [email, setEmail] = useState<String>("");
   const [password, setPassword] = useState<String>("");
